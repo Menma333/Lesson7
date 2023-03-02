@@ -1,0 +1,385 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Arimo', sans-serif;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-image: url(../img/biceps.png), url(../img/subtle-prism.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right top, left top;
+  background-size: 100px, cover;
+  font-family: 'Arimo', sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 20px;
+  margin: auto;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.menu a {
+  color: #ff0000;
+  background-color: #000000;
+}
+
+.deadlift {
+  color: #ff0000;
+  display: inline;
+  border-bottom: 3px solid grey;
+}
+
+a {
+  text-decoration: none;
+  color: #279FDA;
+}
+
+a:visited {
+  color: #279FDA;
+}
+
+.coment {
+  color: gray;
+}
+
+.banch {
+  color: #ff0000;
+  display: inline;
+  border-bottom: 3px solid grey;
+}
+
+.squat {
+  color: #ff0000;
+  display: inline;
+  border-bottom: 3px solid grey;
+}
+
+.grey-background {
+  background-color: #D5D5D7;
+  padding: 16px;
+}
+
+a.read-next {
+  text-decoration: none;
+  color: gray;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+}
+
+a.read-next:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  color: #0F111A;
+}
+
+a.coments {
+  color: #ff0000;
+}
+
+.h1-articles {
+  text-align: center;
+}
+
+.navbar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.navbar-link {
+  border: 2px solid gray;
+  padding: 1em;
+  display: block;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.navbar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.navbar-link {
+  border: 2px solid gray;
+  padding: 1em;
+  display: block;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: gray
+}
+
+.navbar-link:hover {
+  background-color: gray;
+  color: #279FDA;
+  transform: scale(1.15);
+  transition: 0.9s;
+}
+
+.navbar-link.active {
+  background-color: #279FDA;
+  color: gray;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.p-articles::first-letter {
+  color: red;
+  font-size: 20px;
+  font-weight: 900;
+  float: left;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.category-list {
+  list-style-image: url(https://images.freeimages.com/fic/images/icons/1620/crystal_project/22/next.png);
+  font-size: 25px;
+  background-color: rgba(29, 29, 29, 0.438);
+  color: whitesmoke;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.1em;
+  padding: 1em 2em;
+  flex-direction: column;
+  margin: 40px;
+}
+
+.subcategory-list {
+  list-style-image: url(https://images.freeimages.com/fic/images/icons/1156/fugue/16/money_coin.png);
+  font-size: 15px;
+  background-color: black;
+  color: whitesmoke;
+  font-weight: normal;
+  margin: 40px;
+  padding: 20px;
+}
+
+li.new::after {
+  content: "new";
+  color: white;
+  background-color: red;
+  font-size: 90%;
+  padding: 2px;
+  margin-left: 3px;
+}
+
+h2.main-list {
+  font-size: 15px;
+  font-weight: normal;
+  margin: 10px;
+  padding: 10px 10px 10px 37px;
+}
+
+.gallery-image {
+  border: 10px solid black;
+  position: relative;
+  z-index: 1;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.gallery-image:hover {
+  border-color: transparent;
+}
+
+.form-reg {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+fieldset {
+  max-width: 500px;
+  margin: 25px auto;
+  background-color: rgba(245, 245, 245, 0.678);
+  font-size: 16px;
+  font-weight: 300;
+}
+
+legend {
+  transform: translateY(-10px);
+  color: black;
+}
+
+.form-reg-sm {
+  margin: 10px 0 5px
+}
+
+.form-reg-sm:hover {
+  outline: 2px dotted white;
+}
+
+.content .container {
+  max-width: 1280px;
+  padding: 20px;
+  margin: auto;
+}
+
+.content {
+  background-color: rgba(245, 245, 245, 0.644);
+  margin-bottom: 100px;
+  margin-top: 110px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container-gal {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.header {
+  top: 0;
+  width: 100vw;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.5);
+  z-index: 1;
+}
+
+.txt-pag-nav {
+  padding: 0px 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.form-style {
+  background-color: rgba(128, 128, 128, 0.932);
+  color: black;
+}
+
+.copyright {
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form-style {
+  background-color: rgba(128, 128, 128, 0.932);
+  color: black;
+}
+
+fieldset {
+  max-width: 500px;
+  margin: 25px auto;
+}
+
+.form-group:not(:first-of-type) {
+  margin: 15px 0 5px;
+}
+
+fieldset {
+  max-width: 500px;
+  margin: 25px auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px 20px;
+}
+
+input[type="file"] {
+  padding: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  width: auto;
+}
+
+.form-group-sm {
+  margin: 10px 0 5px;
+}
+
+.form-group:not(:first-of-type) {
+  margin: 15px 0 5px;
+}
+
+.input-name {
+  text-transform: capitalize;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: black;
+  background-color: whitesmoke;
+  border: 2px solid;
+}
+
+.btn:hover {
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.527);
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+  padding: 10px 20px;
+  min-height: 75px;
+  max-height: 33vh;
+}
+.example-block {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
